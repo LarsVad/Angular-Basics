@@ -1,0 +1,29 @@
+<h1>
+    Booking
+</h1>
+
+<form (ngSubmit)="onSubmit()" [formGroup]="bookingForm">
+    <p>
+        <input  formControlName="navn" type="text" placeholder="angiv dit navn ..."    required>
+    </p>
+    <p>
+        <input type="email" formControlName="email" placeholder="angiv email" required>
+    </p>
+    
+    <p>
+        <button type="submit" [disabled]="!bookingForm.valid">Submit</button>
+    </p>
+    
+</form>
+
+<hr>
+
+
+<p>
+    Form Value: {{ bookingForm.value | json }}
+</p>
+  
+  
+<p>
+    Form Status: {{ bookingForm.status }}
+</p>
