@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DatoPipe } from './dato.pipe';
+import { BookingComponent } from './booking/booking.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { DatoPipe } from './dato.pipe';
     AboutComponent,
     ContactComponent,
     PageNotFoundComponent,
-    DatoPipe
+    DatoPipe,
+    BookingComponent
   ],
   imports: [
     BrowserModule,
