@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
       about works!
     </p>
 
-    <p> {{ "test" | dato  }}   </p>
+    <p> {{ title   }}   </p>
 
   `,
   styles: [
   ]
 })
 export class AboutComponent implements OnInit {
+
+  title = "overskrift"
 
   constructor() { }
 
