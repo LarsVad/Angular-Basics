@@ -11,13 +11,11 @@ export class DataService {
   async getData(){
      let res  = await fetch(this.db)
      let json = await res.json() 
-     
      // new Set() removes duplicates in array
      // to remove duplicates in array of id, I use map() and find()
      
      const uniqueData = Array.from(new Set(json.map(x => x.id )))
                               .map(id => json.find(a => a.id === id))
- 
      return uniqueData
   }
 
