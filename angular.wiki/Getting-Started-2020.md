@@ -1,4 +1,4 @@
-![image.png](/.attachments/image-66af6736-e37b-4731-a7bf-eea61374e50b.png)
+![](.attachments/image-66af6736-e37b-4731-a7bf-eea61374e50b.png)
 
 <br>
 
