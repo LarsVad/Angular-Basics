@@ -67,9 +67,9 @@ git pull
 
 ## How to generate Modules
 
-- admin module
+- kursus module
 ```powershell
-ng generate module admin --module=app.module --route="admin" --routingScope=Child 
+ng generate module kursus --module=app.module --route="kursus" --routingScope=Child 
 ```
 
 
