@@ -4,6 +4,8 @@
 
 <p> {{title}}   </p>
 
-<p>Let's display data in a nice formatted JSON list</p>
-<pre>{{data | json}}</pre>
+<ul *ngFor="let d of filtered">    
+    {{d.name}}
+</ul>
 
+{{today}}
