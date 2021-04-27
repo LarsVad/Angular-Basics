@@ -10,7 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DatoPipe } from './dato.pipe';
 import { BookingComponent } from './booking/booking.component';
-
+import { ProductService } from './product.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { BookingComponent } from './booking/booking.component';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

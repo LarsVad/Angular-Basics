@@ -1,25 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductService } from '../product.service';
 
-@Component({
-  selector: 'about',
-  template: `
-    <p>
-      about works!
-    </p>
 
-    <p> {{ title   }}   </p>
-
-  `,
-  styles: [
-  ]
-})
+@Component(
+  {
+   selector: 'about',
+   templateUrl: './about.component.html'
+  }
+)
 export class AboutComponent implements OnInit {
 
   title = "overskrift"
+  data 
 
-  constructor() { }
+  constructor( private service:ProductService) {}
 
-  ngOnInit(): void {
+   async ngOnInit() {
+    this.data = await this.service.GetData()
   }
 
 }
