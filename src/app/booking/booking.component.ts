@@ -8,7 +8,8 @@ import { FormBuilder, Validators } from '@angular/forms';
 export class BookingComponent implements OnInit {
   bookingForm = this.fb.group({
     navn: ['', Validators.required],
-    email: ['', Validators.required]
+    email: ['', Validators.required],
+    age: ['', Validators.required]
     
   })
 

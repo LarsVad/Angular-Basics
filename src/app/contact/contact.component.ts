@@ -4,15 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-contact',
   template: `
     <h1>
-      {{title | uppercase}}
+      Title (uppercase): {{title | uppercase }}
     </h1>
 
-    <p>
-    Hvordan du finder Karlebogaard og SuperUsers
-    Karlebovej 91, 3400 Hillerød
-    </p>
-
-    osv.
+    1313 Webfoot Walk, Duckburg, Calisota
   `,
   styles: [
   ]

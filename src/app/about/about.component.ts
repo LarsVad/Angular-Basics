@@ -10,7 +10,7 @@ import { ProductService } from '../product.service';
 )
 export class AboutComponent implements OnInit {
 
-  title = "overskrift"
+  title = "MyTitle"
   data: any 
   filtered: any
   today: Date

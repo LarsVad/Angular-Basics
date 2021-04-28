@@ -9,7 +9,9 @@
     <p>
         <input type="email" formControlName="email" placeholder="angiv email" required>
     </p>
-    
+    <p>
+        <input type="alder" formControlName="age" placeholder="angiv alder" required>
+    </p>
     <p>
         <button type="submit" [disabled]="!bookingForm.valid">Submit</button>
     </p>
@@ -23,20 +25,5 @@
   
 <p>
     Form Status: {{ bookingForm.status }}
-</p>
-
-<hr>
-
-<p>
-    To learn more about Form Validation: <br> <br>
-    <a href="https://angular.io/guide/form-validation"> 
-        - Angular Form Validation
-    </a>
-
-</p>
-<p>
-    <a href="https://stackblitz.com/edit/angular-v8-formcontrol" target="_blank" rel="noopener noreferrer">
-        - Proof Of Concept DEMO
-    </a>
 </p>
 

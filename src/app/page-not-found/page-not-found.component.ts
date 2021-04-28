@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-page-not-found',
   template: `
     <h1>
-      page-not-found 
+      page-not-found (uups sorry)
     </h1>
     <p>
       TODO .....
